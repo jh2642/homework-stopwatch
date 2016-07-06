@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Stopwatch</title>
+    <meta name="description" content="An example basic webpage from The Iron Yard.">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stopwatch.css">
+
+</head>
+
+<body>
+  <div class="row text-center stopwatchButtons">
+  <button class="btn-success start">START</button>
+  <button class="btn-danger stop">STOP</button>
+  <button class="btn-warning clear">CLEAR</button>
+</div>
+
+<div class="row jumbotron text-center stopwatch">
+  <h1 id="time">00:00:00</h1>
+  <img class="tIy" src="iron-yard-logo.svg" alt="">
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="js/stopwatch.js"></script>
+</body>
+</html>

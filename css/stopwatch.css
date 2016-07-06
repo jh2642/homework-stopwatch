@@ -1,0 +1,18 @@
+.stopwatch {
+  font-size: 200px;
+  border: black 15px solid;
+}
+
+button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 160px;
+}
+
+.tIy {
+  width: 250px;
+}
+
+img {
+  text-align: center;
+}
